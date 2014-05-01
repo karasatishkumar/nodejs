@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## NodeJS Practice Programs
 This project has been created for pacticing nodeJS to understand nodeJS in a better way. Going forward the project will be growing to explore different node packages to create sample applications.
 
