@@ -1,0 +1,6 @@
+# Package Files #
+node_modules/
+bin/
+npm-debug.log
+git/
+data/
