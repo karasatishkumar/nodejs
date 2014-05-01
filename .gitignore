@@ -1,4 +1,5 @@
 # Package Files #
-*.jar
-*.war
-*.ear
+*node_modules*
+*bin*
+npm-debug.log
+*.git/
