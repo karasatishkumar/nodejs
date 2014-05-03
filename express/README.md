@@ -27,6 +27,12 @@ This is the command to generate a sample project called "express".
 ##### Check out sources
 
 	git clone https://github.com/karasatishkumar/nodejs.git
+    
+##### Navigate to project
+
+I have put all my nodeJS project in one project. for this we have to navigate to the express project first.
+
+    cd express
 
 ##### Install the dependecies
     
