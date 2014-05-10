@@ -61,7 +61,7 @@ This step will create a folder called "node_module" inside the project.
 
 Hit the following url in the browser to test the application
     
-    http://localhost:3000/users/userlist
+    http://localhost:3000/
 
 ## Contributing
 Pull requests are welcome. Looking forward varius sample node projects.
