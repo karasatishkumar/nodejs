@@ -40,14 +40,6 @@ I have put all my nodeJS project in one project. for this we have to navigate to
 
 This step will create a folder called "node_module" inside the project.
     
-##### Create Data Folder for Mongo
-
-    mkdir data
-
-##### Genrate the data
-    
-    mongod --dbpath ~\code-base\nodejs\express\data
-    
 ##### Mongo DB data population
 
     mongo
