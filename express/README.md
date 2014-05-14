@@ -44,7 +44,10 @@ This step will create a folder called "node_module" inside the project.
 
     mongo
     use express
-    db.express.insert({'username' : 'satish','email' : 'karasatishkumar@gmail.com','fullname' : 'Satish Kumar','age' : 27,'location' : 'Bangalore','gender' : 'Male'})
+    db.usercollection.insert({'username' : 'satish','email' : 'karasatishkumar@gmail.com','fullname' : 'Satish Kumar','age' : 27,'location' : 'Bangalore','gender' : 'Male'})
+    db.usercollection.insert({'username' : 'sanjeev','email' : 'karasanjeevkumar@gmail.com','fullname' : 'Sanjeev Kumar','age' : 27,'location' : 'Bangalore','gender' : 'Male'})
+    db.usercollection.insert({'username' : 'priyam','email' : 'priyam@gmail.com','fullname' : 'Priyam Chaudhary','age' : 27,'location' : 'Bangalore','gender' : 'Male'})
+    db.usercollection.insert({'username' : 'pritam','email' : 'pritam@gmail.com','fullname' : 'Pritam Ghosh','age' : 27,'location' : 'Bangalore','gender' : 'Male'})
 
 
 ## Project Deployment
