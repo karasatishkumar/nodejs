@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1= title 
+        a(href="userlist") User List
+    form#formEditUser(name="edituser",method="post",action="/users/edituser")
+        input#inputUserName(type="text", placeholder="User Name", name="username", value="#{user.username}")
+        input#inputEmail(type="text", placeholder="Email Address", name="email", value="#{user.email}")
+        input#inputFullName(type="text", placeholder="Full Name", name="fullname", value="#{user.fullname}")
+        input#inputAge(type="text", placeholder="Age", name="age", , value="#{user.age}")
+        input#inputLocation(type="text", placeholder="Location", name="location", , value="#{user.location}")
+        input#inputGender(type="text", placeholder="Gender", name="gender", value="#{user.gender}")
+        button#btnSubmit(type="submit") submit

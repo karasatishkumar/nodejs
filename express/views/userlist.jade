@@ -21,7 +21,7 @@ block content
                 th Gender
                 th Actions
             tbody
-                each user, i in userlist
+                each user, i in users
                     tr
                         td 
                             a(href="users/view?username=#{user.username}")=user.username
@@ -31,9 +31,9 @@ block content
                         td #{user.location}
                         td #{user.gender} 
                         td 
-                            a(href="users/view?username=#{user.username}") View
-                            a(href="users/edit?username=#{user.username}") Edit
-                            a(href="users/delete?username=#{user.username}") Delete
+                            a(href="view?username=#{user.username}") View
+                            a(href="edit?username=#{user.username}") Edit
+                            a(href="delete?username=#{user.username}") Delete
                             
                     
         // /USER LIST 
