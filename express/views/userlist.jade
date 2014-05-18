@@ -1,9 +1,41 @@
 extends layout
 
 block content
-    h1.
-        User List
-    ul
-        each user, i in userlist
-            li
-                a(href="mailto:#{user.email}")= user.username
+    h1= title
+    h1 Sample MVC Application With NodeJS & Express
+
+    // Wrapper
+    #wrapper
+        a(href="newuser") New User
+
+    // USER LIST
+    h2 List Of Sample Users
+    #userList
+        table
+            thead
+                th User Name
+                th Email
+                th Full Name
+                th Age
+                th Location
+                th Gender
+                th Actions
+            tbody
+                each user, i in userlist
+                    tr
+                        td 
+                            a(href="users/view?username=#{user.username}")=user.username
+                        td #{user.email}
+                        td #{user.fullname}
+                        td #{user.age}
+                        td #{user.location}
+                        td #{user.gender} 
+                        td 
+                            a(href="users/view?username=#{user.username}") View
+                            a(href="users/edit?username=#{user.username}") Edit
+                            a(href="users/delete?username=#{user.username}") Delete
+                            
+                    
+        // /USER LIST 
+
+    // /WRAPPER

@@ -1,7 +1,8 @@
 extends layout
 
 block content
-    h1= title
+    h1= title 
+        a(href="userlist") User List
     form#formAddUser(name="adduser",method="post",action="/users/adduser")
         input#inputUserName(type="text", placeholder="User Name", name="username")
         input#inputEmail(type="text", placeholder="Email Address", name="email")
